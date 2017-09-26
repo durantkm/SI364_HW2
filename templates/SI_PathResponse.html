@@ -1,0 +1,17 @@
+<h1> You will need to take: </h1>
+{% if result['SI_Path'] == "UX_Design" %}
+	<li>SI 364: Building Interactive Applications</li>
+	<li>SI 388: Putting the H in HCI: Human Perception, Cognition, and Mental Processes</li>
+	<li>SI 422: Needs Assessment and Usability Evaluation</li>
+	<li>SI 482: Interaction Design Studio</li>
+{% elif result['SI_Path'] == "Information_Analysis" %}
+	<li>SI 330: Data Manipulation</li>
+	<li>SI 370: Data Exploration</li>
+	<li>SI 425: Introduction to User Modeling</li>
+	<li>SI 405: Information Analysis Final Project Preparation Course</li>
+{% else %}
+	<li>SI 315: Interpersonal and Psychological Implications of Social Media</li>
+	<li>SI 335: Social Media in Organizationsn</li>
+	<li>SI 422: Needs Assessment and Usability Evaluation</li>
+	<li>SI 429: Online Communities: Analysis and Design of Online Interaction</li>
+{% endif %}
